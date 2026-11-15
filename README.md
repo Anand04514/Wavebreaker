@@ -6,6 +6,10 @@ your own high score.
 
 ## Play
 
+Play in the browser: **https://anand04514.github.io/Wavebreaker/**
+
+Or run it locally:
+
 ```bash
 npm install
 npm run dev      # http://localhost:5173
