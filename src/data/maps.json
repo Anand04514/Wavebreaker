@@ -1,0 +1,36 @@
+{
+  "defaultMap": "open",
+  "maps": [
+    {
+      "id": "open",
+      "name": "OPEN FLOOR",
+      "obstacles": []
+    },
+    {
+      "id": "pillars",
+      "name": "PILLARS",
+      "obstacles": [
+        { "x": 420, "y": 260, "width": 150, "height": 150 },
+        { "x": 1990, "y": 260, "width": 150, "height": 150 },
+        { "x": 420, "y": 1030, "width": 150, "height": 150 },
+        { "x": 1990, "y": 1030, "width": 150, "height": 150 },
+        { "x": 1180, "y": 240, "width": 200, "height": 90 },
+        { "x": 1180, "y": 1110, "width": 200, "height": 90 }
+      ]
+    },
+    {
+      "id": "cross",
+      "name": "THE CROSS",
+      "obstacles": [
+        { "x": 880, "y": 700, "width": 300, "height": 40 },
+        { "x": 1380, "y": 700, "width": 300, "height": 40 },
+        { "x": 1260, "y": 400, "width": 40, "height": 260 },
+        { "x": 1260, "y": 780, "width": 40, "height": 260 },
+        { "x": 260, "y": 260, "width": 120, "height": 120 },
+        { "x": 2180, "y": 260, "width": 120, "height": 120 },
+        { "x": 260, "y": 1060, "width": 120, "height": 120 },
+        { "x": 2180, "y": 1060, "width": 120, "height": 120 }
+      ]
+    }
+  ]
+}

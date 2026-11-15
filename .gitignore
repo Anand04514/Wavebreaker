@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local dev server logs
+*.log
+
+# Test captures, recordings and design scratch images
+screenshots/
+demo/
+playtest-*.png
+big-map.png
+
+# Tooling state
+.freebuff/
+threads/
+
+# OS junk
+.DS_Store
+Thumbs.db

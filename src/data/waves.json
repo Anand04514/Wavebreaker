@@ -1,0 +1,104 @@
+{
+  "baseCount": 5,
+  "countPerWave": 2,
+  "healthGrowthPerWave": 0.05,
+  "spawnIntervalMs": 620,
+  "firstSpawnDelayMs": 500,
+  "breakDurationMs": 3200,
+  "runStartDelayMs": 1400,
+  "bossEveryWaves": 5,
+  "bands": [
+    {
+      "fromWave": 1,
+      "types": [{ "type": "chaser", "weight": 1 }]
+    },
+    {
+      "fromWave": 2,
+      "types": [
+        { "type": "chaser", "weight": 3 },
+        { "type": "runner", "weight": 1 }
+      ]
+    },
+    {
+      "fromWave": 4,
+      "types": [
+        { "type": "chaser", "weight": 3 },
+        { "type": "runner", "weight": 2 },
+        { "type": "shooter", "weight": 1 }
+      ]
+    },
+    {
+      "fromWave": 5,
+      "types": [
+        { "type": "chaser", "weight": 3 },
+        { "type": "runner", "weight": 2 },
+        { "type": "shooter", "weight": 1 },
+        { "type": "tank", "weight": 1 },
+        { "type": "bomber", "weight": 2 }
+      ]
+    },
+    {
+      "fromWave": 6,
+      "types": [
+        { "type": "chaser", "weight": 3 },
+        { "type": "runner", "weight": 3 },
+        { "type": "shooter", "weight": 1 },
+        { "type": "tank", "weight": 1 },
+        { "type": "bomber", "weight": 2 },
+        { "type": "shocker", "weight": 1 },
+        { "type": "cloner", "weight": 1 }
+      ]
+    },
+    {
+      "fromWave": 7,
+      "types": [
+        { "type": "chaser", "weight": 3 },
+        { "type": "runner", "weight": 3 },
+        { "type": "shooter", "weight": 2 },
+        { "type": "tank", "weight": 1 },
+        { "type": "bomber", "weight": 2 },
+        { "type": "healer", "weight": 1 },
+        { "type": "shocker", "weight": 1 },
+        { "type": "cloner", "weight": 1 }
+      ]
+    },
+    {
+      "fromWave": 8,
+      "types": [
+        { "type": "chaser", "weight": 3 },
+        { "type": "runner", "weight": 3 },
+        { "type": "shooter", "weight": 2 },
+        { "type": "tank", "weight": 1 },
+        { "type": "bomber", "weight": 2 },
+        { "type": "healer", "weight": 1 },
+        { "type": "teleporter", "weight": 1 },
+        { "type": "shocker", "weight": 1 },
+        { "type": "cloner", "weight": 1 }
+      ]
+    },
+    {
+      "fromWave": 9,
+      "types": [
+        { "type": "chaser", "weight": 3 },
+        { "type": "runner", "weight": 3 },
+        { "type": "shooter", "weight": 3 },
+        { "type": "tank", "weight": 2 },
+        { "type": "bomber", "weight": 2 },
+        { "type": "healer", "weight": 1 },
+        { "type": "teleporter", "weight": 1 },
+        { "type": "shocker", "weight": 2 },
+        { "type": "cloner", "weight": 2 }
+      ]
+    }
+  ],
+  "boss": {
+    "health": 70,
+    "speed": 52,
+    "contactDamage": 25,
+    "score": 250,
+    "healthGrowthPerWave": 0.12,
+    "burstEveryMs": 2400,
+    "burstCount": 8,
+    "burstDamage": 7
+  }
+}

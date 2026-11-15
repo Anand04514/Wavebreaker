@@ -1,0 +1,39 @@
+{
+  "startingWeapon": "pistol",
+  "order": ["pistol", "shotgun", "smg"],
+  "weapons": [
+    {
+      "id": "pistol",
+      "name": "Pistol",
+      "shotsPerSecond": 4,
+      "damage": 1,
+      "bulletSpeed": 760,
+      "pellets": 1,
+      "spreadRadians": 0,
+      "color": "#ffe066",
+      "accent": "#ffb020"
+    },
+    {
+      "id": "shotgun",
+      "name": "Shotgun",
+      "shotsPerSecond": 1.3,
+      "damage": 0.9,
+      "bulletSpeed": 700,
+      "pellets": 5,
+      "spreadRadians": 0.3,
+      "color": "#ff9f5a",
+      "accent": "#ff6b1a"
+    },
+    {
+      "id": "smg",
+      "name": "SMG",
+      "shotsPerSecond": 10,
+      "damage": 0.5,
+      "bulletSpeed": 840,
+      "pellets": 1,
+      "spreadRadians": 0.12,
+      "color": "#5ce1ff",
+      "accent": "#1fb6e8"
+    }
+  ]
+}
