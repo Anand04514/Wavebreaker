@@ -4,6 +4,28 @@ A wave-survival arena shooter built with Phaser 3 + TypeScript. You are a lone g
 arena: enemies close in from every edge, waves keep getting heavier, and the only goal is to beat
 your own high score.
 
+![Wavebreaker gameplay: wave 4 with an Overshard boss on the field](assets/screenshot.png)
+
+## Features
+
+- **Ten enemy types and a boss.** Chasers, runners, tanks, shooters, bombers, healers, teleporters,
+  shockers, cloners and the *Overshard* — a boss every fifth wave with four telegraphed attacks.
+- **A growing arsenal.** Pistol, shotgun and SMG, uncapped ordnance ranks once all three are owned,
+  a three-charge dash, a thrown bomb, and seven pickups whose timed buffs stack instead of reset.
+- **Three arenas** — open floor, pillars and a cross of walls — where cover stops you, the enemies
+  and every bullet, so positioning matters.
+- **A battle buddy** that fights beside you for 20 seconds, carrying your gun and your damage buffs.
+- **No asset files.** Every sprite is procedural `Graphics` art and every sound is synthesised with
+  Web Audio, so there is nothing to download and nothing to credit.
+- **Tuning in one place.** Every number lives in `src/config.ts` and the wave/weapon tables in
+  `src/data/*.json`, not scattered through the scenes.
+- **Tested rules.** Wave composition, spawn placement, damage, scoring and weapon spread are pure
+  TypeScript in `src/systems/`, covered by 168 Vitest tests.
+- **Built to stay smooth.** Pooled bullets, enemies and pickups, delta-time movement and a HUD that
+  only repaints the values that changed.
+- **Portable build.** `npm run build` emits a relative-path bundle that runs from GitHub Pages,
+  itch.io or any static host without changes.
+
 ## Play
 
 Play in the browser: **https://anand04514.github.io/Wavebreaker/**
