@@ -1,6 +1,6 @@
 # Wavebreaker
 
-A wave-survival arena shooter built with Phaser 3 + TypeScript. You are a lone gun in a closed
+A wave-survival arena shooter built with Phaser 3 + TypeScript. You are a lone gunner in a closed
 arena: enemies close in from every edge, waves keep getting heavier, and the only goal is to beat
 your own high score.
 
